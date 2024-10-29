@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+
+    <style>
+        body {
+            background-color: #000;
+            color: #eee;
+        }
+
+
+
+        details {
+            position: relative;
+            width: 100%;
+        }
+
+   
+        details::before {
+            content: '';
+            background: url(/img/3.jpg) center / cover no-repeat;
+            background-blend-mode: darken;
+            background-color: #00000081;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+            filter: blur(3px);
+        }
+
+        .p2 {
+            background-color: #00000064;
+            color: aqua;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <hr>
+    <details>
+        <summary>details</summary>
+        <a href=""><img src="/img/The Mss in the rain.jpg" alt="" width="200px" height="200px"></a>
+        <a href=""><img src="/img/the girl with cat.jpg" alt="" width="200px" height="200px"></a>
+        <a href=""><img src="/img/rain.jpg" alt="" width="200px" height="200px"></a>
+        <a href=""><img src="/img/New York rain streets.jpg" alt="" width="200px" height="200px"></a>
+        <a href=""><img src="/img/after rain.jpg" alt="" width="200px`" height="200px"></a>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Aperiam, ratione debitis voluptatum officiis dolores accusamus
+            molestias nam dolore sed nisi nesciunt repellat quam ad
+            magnam fugit fuga! Error, officiis? Tenetur!
+        </p>
+        <p class="p2">
+            <br>
+            Lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Tenetur doloribus sint
+            dolor recusandae repellat maxime eum
+            dicta totam pariatur omnis aliquid
+            laudantium porro alias vitae magnam rem, quasi at quas.
+            <br>
+            <br>
+        </p>
+        <br>
+        <br>
+        <br>
+    </details>
+
+</body>
+
+</html>
