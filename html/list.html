@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>List</title>
 </head>
-<body>
-    
+
+<body style="background-color: #333; color: antiquewhite;">
+
     <!-- I, i, a, A, 1 -->
     <a href="index1.html">index1.html</a>
     <br>
@@ -27,6 +29,7 @@
         <li>text</li>
     </ol>
 
+
     <ul>
         <li>text</li>
         <li>text</li>
@@ -36,15 +39,11 @@
             <ul>
                 <li>text</li>
                 <li>text</li>
-                <ul>
-                    <li>text</li>
-                    <li>text</li>
-                </ul>
             </ul>
         </ul>
     </ul>
 
- 
+
     <li>text</li>
     <li>text</li>
     <li>text</li>
@@ -57,29 +56,38 @@
     <br>
     <br>
     <br>
-  
+    <br>
+    <br>
+
 
     <a href="#back">
         <p id="testbookmark">New Message2</p>
     </a>
 
-    <marquee 
-    class="m1" 
-    height="250px" 
-    width="400px" 
-    behavior="alternate" 
-    direction="up"
-    truespeed
-    scrolldelay="40"
-    >
-        <marquee behavior="alternate" direction="" truespeed scrolldelay="30">
+    <!-- <marquee class="m1" height="250px" width="400px" behavior="alternate" direction="up" truespeed scrolldelay="40">
+        <marquee behavior="alternate" direction="right" truespeed scrolldelay="30">
             <img src="/img/pepsi-logo.png" alt="" width="75px" height="75px">
         </marquee>
-    </marquee>
+    </marquee> -->
+
+<!-- 
+    <marquee behavior="alternate" direction="right" scrolldelay="20" truespeed>
+        Lorem ipsum dolor sit.
+    </marquee> -->
 </body>
 <style>
-    .m1{
+
+    a{
+        color: yellow;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    .m1 {
         border: 1px solid black;
     }
 </style>
+
 </html>
